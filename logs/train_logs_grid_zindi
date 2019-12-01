@@ -1,0 +1,218 @@
+INFO: 2019-11-27 20:32:37,301: features selected ['ProductId_14', 'before_due_mean', 'Number_Of_Split_Payments', 'CustomerId', 'before_due_min', 'Value', 'inc_value_date', 'max_cus_transac', 'before_due_max', 'ProductCategory_6', 'Day_in_month', 'min_cus_transac', 'mean_cus_transac', 'std_cus_transac', 'Day_Of_Week', 'ProductCategory_1', 'Cnt_missed_payment', 'ProductId_4', 'Count_Rejected_Loans', 'before_due_std', 'ProductId_8', 'ProductId_1', 'ProductId_7', 'ProductCategory_4', 'ProductCategory_2']
+INFO: 2019-11-27 20:32:37,310: fitting model
+INFO: 2019-11-27 20:32:37,310: Train KNN
+INFO: 2019-11-27 20:32:38,011: Best parameters values:{'n_jobs': 1, 'n_neighbors': 28, 'weights': 'uniform'}
+INFO: 2019-11-27 20:32:38,025: Accuracy Score: 0.903
+INFO: 2019-11-27 20:32:38,033: -------------------------------
+INFO: 2019-11-27 20:32:38,033: Train RF
+INFO: 2019-11-27 20:33:32,253: Best parameters values:{'class_weight': 'balanced_subsample', 'max_features': None, 'min_samples_leaf': 1, 'n_estimators': 30}
+INFO: 2019-11-27 20:33:32,259: Accuracy Score: 0.763
+INFO: 2019-11-27 20:33:32,282: -------------------------------
+INFO: 2019-11-27 20:33:32,282: Train GB
+INFO: 2019-11-27 20:33:36,665: Best parameters values:{'learning_rate': 0.1, 'n_estimators': 30}
+INFO: 2019-11-27 20:33:36,669: Accuracy Score: 0.815
+INFO: 2019-11-27 20:33:36,680: -------------------------------
+INFO: 2019-11-27 20:33:36,680: Train MLP
+INFO: 2019-11-27 20:34:44,471: Best parameters values:{'hidden_layer_sizes': (400,)}
+INFO: 2019-11-27 20:34:44,477: Accuracy Score: 0.942
+INFO: 2019-11-27 20:34:44,513: -------------------------------
+INFO: 2019-11-27 20:34:44,513: Train BC
+INFO: 2019-11-27 20:34:50,531: Best parameters values:{'n_estimators': 120}
+INFO: 2019-11-27 20:34:50,550: Accuracy Score: 0.770
+INFO: 2019-11-27 20:34:50,638: -------------------------------
+INFO: 2019-11-27 20:34:50,639: Train XGB
+INFO: 2019-11-27 20:35:11,695: Best parameters values:{'booster': 'gbtree', 'max_depth': 10, 'n_estimators': 50}
+INFO: 2019-11-27 20:35:11,705: Accuracy Score: 0.770
+INFO: 2019-11-27 20:35:11,705: -------------------------------
+INFO: 2019-11-27 20:35:11,705: Train LG
+INFO: 2019-11-27 20:35:15,354: Best parameters values:{'penalty': 'l1'}
+INFO: 2019-11-27 20:35:15,358: Accuracy Score: 0.815
+INFO: 2019-11-27 20:35:15,364: -------------------------------
+INFO: 2019-11-27 20:35:15,364: Train ADB
+INFO: 2019-11-30 13:28:18,389: fitting model
+INFO: 2019-11-30 13:28:18,389: Train KNN
+INFO: 2019-11-30 13:30:27,819: features selected ['ProductId_14', 'before_due_mean', 'Number_Of_Split_Payments', 'CustomerId', 'before_due_min', 'Value', 'inc_value_date', 'max_cus_transac', 'before_due_max', 'ProductCategory_6', 'Day_in_month', 'min_cus_transac', 'mean_cus_transac', 'std_cus_transac', 'Day_Of_Week', 'ProductCategory_1', 'Cnt_missed_payment', 'ProductId_4', 'Count_Rejected_Loans', 'before_due_std', 'ProductId_8', 'ProductId_1', 'ProductId_7', 'ProductCategory_4', 'ProductCategory_2']
+INFO: 2019-11-30 13:33:29,790: features selected ['ProductId_14', 'before_due_mean', 'Number_Of_Split_Payments', 'CustomerId', 'before_due_min', 'Value', 'inc_value_date', 'max_cus_transac', 'before_due_max', 'ProductCategory_6', 'Day_in_month', 'min_cus_transac', 'mean_cus_transac', 'std_cus_transac', 'Day_Of_Week', 'ProductCategory_1', 'Cnt_missed_payment', 'ProductId_4', 'Count_Rejected_Loans', 'before_due_std', 'ProductId_8', 'ProductId_1', 'ProductId_7', 'ProductCategory_4', 'ProductCategory_2']
+INFO: 2019-11-30 13:33:29,801: fitting model
+INFO: 2019-11-30 13:33:29,801: Train KNN
+INFO: 2019-11-30 13:33:30,777: Best parameters values:{'n_jobs': 1, 'n_neighbors': 28, 'weights': 'distance'}
+INFO: 2019-11-30 13:33:30,786: Accuracy Score: 0.872
+INFO: 2019-11-30 13:33:30,794: -------------------------------
+INFO: 2019-11-30 13:33:30,795: Train RF
+INFO: 2019-11-30 13:34:34,573: Best parameters values:{'class_weight': 'balanced_subsample', 'max_features': 'auto', 'min_samples_leaf': 1, 'n_estimators': 100}
+INFO: 2019-11-30 13:34:34,588: Accuracy Score: 0.770
+INFO: 2019-11-30 13:34:34,649: -------------------------------
+INFO: 2019-11-30 13:34:34,649: Train GB
+INFO: 2019-11-30 13:34:40,335: Best parameters values:{'learning_rate': 0.1, 'n_estimators': 150}
+INFO: 2019-11-30 13:34:40,362: Accuracy Score: 0.854
+INFO: 2019-11-30 13:34:40,446: -------------------------------
+INFO: 2019-11-30 13:34:40,446: Train MLP
+INFO: 2019-11-30 13:36:46,323: Best parameters values:{'hidden_layer_sizes': (600,)}
+INFO: 2019-11-30 13:36:46,330: Accuracy Score: 0.969
+INFO: 2019-11-30 13:36:46,389: -------------------------------
+INFO: 2019-11-30 13:36:46,389: Train BC
+INFO: 2019-11-30 13:36:54,828: Best parameters values:{'n_estimators': 120}
+INFO: 2019-11-30 13:36:54,847: Accuracy Score: 0.809
+INFO: 2019-11-30 13:36:54,925: -------------------------------
+INFO: 2019-11-30 13:36:54,925: Train XGB
+INFO: 2019-11-30 13:37:39,165: Best parameters values:{'booster': 'gbtree', 'max_depth': 10, 'n_estimators': 100}
+INFO: 2019-11-30 13:37:39,182: Accuracy Score: 0.809
+INFO: 2019-11-30 13:37:39,189: -------------------------------
+INFO: 2019-11-30 13:37:39,189: Train LG
+INFO: 2019-11-30 13:37:44,632: Best parameters values:{'penalty': 'l1'}
+INFO: 2019-11-30 13:37:44,636: Accuracy Score: 0.978
+INFO: 2019-11-30 13:37:44,657: -------------------------------
+INFO: 2019-11-30 13:37:44,657: Train ADB
+INFO: 2019-11-30 13:39:07,463: features selected ['ProductId_14', 'before_due_mean', 'Number_Of_Split_Payments', 'CustomerId', 'before_due_min', 'Value', 'inc_value_date', 'max_cus_transac', 'before_due_max', 'ProductCategory_6', 'Day_in_month', 'min_cus_transac', 'mean_cus_transac', 'std_cus_transac', 'Day_Of_Week', 'ProductCategory_1', 'Cnt_missed_payment', 'ProductId_4', 'Count_Rejected_Loans', 'before_due_std', 'ProductId_8', 'ProductId_1', 'ProductId_7', 'ProductCategory_4', 'ProductCategory_2']
+INFO: 2019-11-30 13:39:07,474: fitting model
+INFO: 2019-11-30 13:39:07,474: Train KNN
+INFO: 2019-11-30 13:39:08,560: Best parameters values:{'n_jobs': 1, 'n_neighbors': 28, 'weights': 'distance'}
+INFO: 2019-11-30 13:39:08,570: Accuracy Score: 0.872
+INFO: 2019-11-30 13:39:08,595: -------------------------------
+INFO: 2019-11-30 13:39:08,595: Train RF
+INFO: 2019-11-30 13:40:11,579: Best parameters values:{'class_weight': 'balanced_subsample', 'max_features': 'auto', 'min_samples_leaf': 1, 'n_estimators': 100}
+INFO: 2019-11-30 13:40:11,592: Accuracy Score: 0.770
+INFO: 2019-11-30 13:40:11,652: -------------------------------
+INFO: 2019-11-30 13:40:11,652: Train GB
+INFO: 2019-11-30 13:40:17,485: Best parameters values:{'learning_rate': 0.1, 'n_estimators': 150}
+INFO: 2019-11-30 13:40:17,490: Accuracy Score: 0.854
+INFO: 2019-11-30 13:40:17,506: -------------------------------
+INFO: 2019-11-30 13:40:17,506: Train MLP
+INFO: 2019-11-30 13:42:24,248: Best parameters values:{'hidden_layer_sizes': (600,)}
+INFO: 2019-11-30 13:42:24,255: Accuracy Score: 0.969
+INFO: 2019-11-30 13:42:24,271: -------------------------------
+INFO: 2019-11-30 13:42:24,271: Train BC
+INFO: 2019-11-30 13:42:32,968: Best parameters values:{'n_estimators': 120}
+INFO: 2019-11-30 13:42:32,987: Accuracy Score: 0.809
+INFO: 2019-11-30 13:42:33,065: -------------------------------
+INFO: 2019-11-30 13:42:33,066: Train XGB
+INFO: 2019-11-30 13:43:17,764: Best parameters values:{'booster': 'gbtree', 'max_depth': 10, 'n_estimators': 100}
+INFO: 2019-11-30 13:43:17,770: Accuracy Score: 0.809
+INFO: 2019-11-30 13:43:17,777: -------------------------------
+INFO: 2019-11-30 13:43:17,777: Train LG
+INFO: 2019-11-30 13:43:23,359: Best parameters values:{'penalty': 'l1'}
+INFO: 2019-11-30 13:43:23,364: Accuracy Score: 0.978
+INFO: 2019-11-30 13:43:23,371: -------------------------------
+INFO: 2019-11-30 13:43:23,371: Train BBC
+INFO: 2019-11-30 13:44:39,333: Best parameters values:{'base_estimator': RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+                       max_depth=None, max_features='auto', max_leaf_nodes=None,
+                       min_impurity_decrease=0.0, min_impurity_split=None,
+                       min_samples_leaf=1, min_samples_split=2,
+                       min_weight_fraction_leaf=0.0, n_estimators='warn',
+                       n_jobs=None, oob_score=False, random_state=None,
+                       verbose=0, warm_start=False), 'n_estimators': 100, 'sampling_strategy': 'auto'}
+INFO: 2019-11-30 13:44:39,454: Accuracy Score: 0.812
+INFO: 2019-11-30 13:44:40,195: -------------------------------
+INFO: 2019-11-30 13:44:40,195: Train BRC
+INFO: 2019-11-30 13:45:22,734: Best parameters values:{'class_weight': None, 'n_estimators': 30, 'sampling_strategy': 'all'}
+INFO: 2019-11-30 13:45:22,740: Accuracy Score: 0.854
+INFO: 2019-11-30 13:45:22,849: -------------------------------
+INFO: 2019-11-30 13:45:22,849: Train EEC
+INFO: 2019-11-30 13:58:03,788: features selected ['ProductId_14', 'before_due_mean', 'Number_Of_Split_Payments', 'CustomerId', 'before_due_min', 'Value', 'inc_value_date', 'max_cus_transac', 'before_due_max', 'ProductCategory_6', 'Day_in_month', 'min_cus_transac', 'mean_cus_transac', 'std_cus_transac', 'Day_Of_Week', 'ProductCategory_1', 'Cnt_missed_payment', 'ProductId_4', 'Count_Rejected_Loans', 'before_due_std', 'ProductId_8', 'ProductId_1', 'ProductId_7', 'ProductCategory_4', 'ProductCategory_2']
+INFO: 2019-11-30 13:58:03,798: fitting model
+INFO: 2019-11-30 13:58:03,798: Train KNN
+INFO: 2019-11-30 13:58:04,152: Best parameters values:{'n_jobs': 1, 'n_neighbors': 16, 'weights': 'distance'}
+INFO: 2019-11-30 13:58:04,157: Accuracy Score: 0.969
+INFO: 2019-11-30 13:58:04,167: -------------------------------
+INFO: 2019-11-30 13:58:04,167: Train RF
+INFO: 2019-11-30 13:58:48,769: Best parameters values:{'class_weight': 'balanced_subsample', 'max_features': 'auto', 'min_samples_leaf': 1, 'n_estimators': 30}
+INFO: 2019-11-30 13:58:48,776: Accuracy Score: 0.978
+INFO: 2019-11-30 13:58:48,798: -------------------------------
+INFO: 2019-11-30 13:58:48,798: Train GB
+INFO: 2019-11-30 13:58:50,895: Best parameters values:{'learning_rate': 0.1, 'n_estimators': 100}
+INFO: 2019-11-30 13:58:50,900: Accuracy Score: 0.975
+INFO: 2019-11-30 13:58:50,947: -------------------------------
+INFO: 2019-11-30 13:58:50,947: Train MLP
+INFO: 2019-11-30 13:59:00,567: Best parameters values:{'hidden_layer_sizes': (500,)}
+INFO: 2019-11-30 13:59:00,573: Accuracy Score: 0.929
+INFO: 2019-11-30 13:59:00,590: -------------------------------
+INFO: 2019-11-30 13:59:00,590: Train BC
+INFO: 2019-11-30 13:59:04,406: Best parameters values:{'n_estimators': 150}
+INFO: 2019-11-30 13:59:04,429: Accuracy Score: 0.972
+INFO: 2019-11-30 13:59:04,522: -------------------------------
+INFO: 2019-11-30 13:59:04,522: Train XGB
+INFO: 2019-11-30 13:59:08,727: Best parameters values:{'booster': 'gbtree', 'max_depth': 10, 'n_estimators': 100}
+INFO: 2019-11-30 13:59:08,731: Accuracy Score: 0.972
+INFO: 2019-11-30 13:59:08,739: -------------------------------
+INFO: 2019-11-30 13:59:08,739: Train LG
+INFO: 2019-11-30 13:59:08,822: Best parameters values:{'penalty': 'l2'}
+INFO: 2019-11-30 13:59:08,826: Accuracy Score: 0.948
+INFO: 2019-11-30 13:59:08,832: -------------------------------
+INFO: 2019-11-30 13:59:08,832: Train BBC
+INFO: 2019-11-30 13:59:58,836: Best parameters values:{'base_estimator': RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+                       max_depth=None, max_features='auto', max_leaf_nodes=None,
+                       min_impurity_decrease=0.0, min_impurity_split=None,
+                       min_samples_leaf=1, min_samples_split=2,
+                       min_weight_fraction_leaf=0.0, n_estimators='warn',
+                       n_jobs=None, oob_score=False, random_state=None,
+                       verbose=0, warm_start=False), 'n_estimators': 10, 'sampling_strategy': 'all'}
+INFO: 2019-11-30 13:59:58,859: Accuracy Score: 0.978
+INFO: 2019-11-30 13:59:58,951: -------------------------------
+INFO: 2019-11-30 13:59:58,951: Train BRC
+INFO: 2019-11-30 14:00:31,412: Best parameters values:{'class_weight': 'balanced_subsample', 'n_estimators': 10, 'sampling_strategy': 'auto'}
+INFO: 2019-11-30 14:00:31,417: Accuracy Score: 0.972
+INFO: 2019-11-30 14:00:31,439: -------------------------------
+INFO: 2019-11-30 14:00:31,440: Train EEC
+INFO: 2019-11-30 14:10:28,571: Best parameters values:{'base_estimator': RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+                       max_depth=None, max_features='auto', max_leaf_nodes=None,
+                       min_impurity_decrease=0.0, min_impurity_split=None,
+                       min_samples_leaf=1, min_samples_split=2,
+                       min_weight_fraction_leaf=0.0, n_estimators='warn',
+                       n_jobs=None, oob_score=False, random_state=None,
+                       verbose=0, warm_start=False), 'n_estimators': 30, 'sampling_strategy': 'all'}
+INFO: 2019-11-30 14:10:28,610: Accuracy Score: 0.975
+INFO: 2019-11-30 14:10:28,805: -------------------------------
+INFO: 2019-11-30 14:30:51,844: features selected ['ProductId_14', 'before_due_mean', 'Number_Of_Split_Payments', 'CustomerId', 'before_due_min', 'Value', 'inc_value_date', 'max_cus_transac', 'before_due_max', 'ProductCategory_6', 'Day_in_month', 'min_cus_transac', 'mean_cus_transac', 'std_cus_transac', 'Day_Of_Week', 'ProductCategory_1', 'Cnt_missed_payment', 'ProductId_4', 'Count_Rejected_Loans', 'before_due_std', 'ProductId_8', 'ProductId_1', 'ProductId_7', 'ProductCategory_4', 'ProductCategory_2']
+INFO: 2019-11-30 14:30:51,929: fitting model
+INFO: 2019-11-30 14:30:51,930: Train KNN
+INFO: 2019-11-30 14:30:52,874: Best parameters values:{'n_jobs': 1, 'n_neighbors': 10, 'weights': 'distance'}
+INFO: 2019-11-30 14:30:52,881: Accuracy Score: 0.960
+INFO: 2019-11-30 14:30:52,889: -------------------------------
+INFO: 2019-11-30 14:30:52,889: Train RF
+INFO: 2019-11-30 14:32:05,826: Best parameters values:{'class_weight': 'balanced_subsample', 'max_features': 'log2', 'min_samples_leaf': 1, 'n_estimators': 30}
+INFO: 2019-11-30 14:32:05,833: Accuracy Score: 0.985
+INFO: 2019-11-30 14:32:05,858: -------------------------------
+INFO: 2019-11-30 14:32:05,858: Train GB
+INFO: 2019-11-30 14:32:13,270: Best parameters values:{'learning_rate': 0.1, 'n_estimators': 150}
+INFO: 2019-11-30 14:32:13,274: Accuracy Score: 0.988
+INFO: 2019-11-30 14:32:13,292: -------------------------------
+INFO: 2019-11-30 14:32:13,292: Train MLP
+INFO: 2019-11-30 14:34:11,190: Best parameters values:{'hidden_layer_sizes': (400,)}
+INFO: 2019-11-30 14:34:11,196: Accuracy Score: 0.902
+INFO: 2019-11-30 14:34:11,212: -------------------------------
+INFO: 2019-11-30 14:34:11,212: Train BC
+INFO: 2019-11-30 14:34:20,643: Best parameters values:{'n_estimators': 100}
+INFO: 2019-11-30 14:34:20,660: Accuracy Score: 0.900
+INFO: 2019-11-30 14:34:20,725: -------------------------------
+INFO: 2019-11-30 14:34:20,725: Train XGB
+INFO: 2019-11-30 14:34:55,615: Best parameters values:{'booster': 'gbtree', 'max_depth': 10, 'n_estimators': 100}
+INFO: 2019-11-30 14:34:55,619: Accuracy Score: 0.988
+INFO: 2019-11-30 14:34:55,656: -------------------------------
+INFO: 2019-11-30 14:34:55,657: Train LG
+INFO: 2019-11-30 14:34:55,830: Best parameters values:{'penalty': 'l1'}
+INFO: 2019-11-30 14:34:55,833: Accuracy Score: 0.975
+INFO: 2019-11-30 14:34:55,840: -------------------------------
+INFO: 2019-11-30 14:34:55,840: Train BBC
+INFO: 2019-11-30 14:36:18,222: Best parameters values:{'base_estimator': RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+                       max_depth=None, max_features='auto', max_leaf_nodes=None,
+                       min_impurity_decrease=0.0, min_impurity_split=None,
+                       min_samples_leaf=1, min_samples_split=2,
+                       min_weight_fraction_leaf=0.0, n_estimators='warn',
+                       n_jobs=None, oob_score=False, random_state=None,
+                       verbose=0, warm_start=False), 'n_estimators': 100, 'sampling_strategy': 'all'}
+INFO: 2019-11-30 14:36:18,360: Accuracy Score: 0.988
+INFO: 2019-11-30 14:36:19,202: -------------------------------
+INFO: 2019-11-30 14:36:19,202: Train BRC
+INFO: 2019-11-30 14:37:02,489: Best parameters values:{'class_weight': 'balanced', 'n_estimators': 50, 'sampling_strategy': 'all'}
+INFO: 2019-11-30 14:37:02,498: Accuracy Score: 0.988
+INFO: 2019-11-30 14:37:02,601: -------------------------------
+INFO: 2019-11-30 14:37:02,601: Train EEC
+INFO: 2019-11-30 14:50:45,207: Best parameters values:{'base_estimator': RandomForestClassifier(bootstrap=True, class_weight=None, criterion='gini',
+                       max_depth=None, max_features='auto', max_leaf_nodes=None,
+                       min_impurity_decrease=0.0, min_impurity_split=None,
+                       min_samples_leaf=1, min_samples_split=2,
+                       min_weight_fraction_leaf=0.0, n_estimators='warn',
+                       n_jobs=None, oob_score=False, random_state=None,
+                       verbose=0, warm_start=False), 'n_estimators': 30, 'sampling_strategy': 'all'}
+INFO: 2019-11-30 14:50:45,246: Accuracy Score: 0.988
+INFO: 2019-11-30 14:50:45,443: -------------------------------

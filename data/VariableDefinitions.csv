@@ -1,0 +1,28 @@
+﻿Variable,Definition
+CustomerId,Unique number identifying the customer on platform
+TransactionStartTime,Transaction start time
+Value,Value of transaction
+Amount,Value of Transaction with charges
+TransactionId,Unique transaction identifier on platform
+BatchId,Identifier for bulk transactions being done on an account
+SubscriptionId,You can have one account with multiple subscriptions
+CurrencyCode,Country currency
+CountryCode,Numerical geographical code of country
+ProviderId,Source provider of Item bought
+ProductId,Item name being bought
+ProductCategory,Type of product
+ChannelId,Identifies if customer used Xente Paylater on any other channel
+TransactionStatus,"Loan application status (1=accepted, 0 = rejected)"
+IssuedDateLoan,Date loan is issued
+AmountLoan,Value of the loan issued
+Currency,Ugandan shillings Denominations
+LoanId,Loan transaction unique identifier
+PaidOnDate,Date on which the loan was paid
+IsFinalPayBack,Last payback installment
+InvestorId,Loan issuer or network owner
+DueDate,Date loan is due
+LoanApplicationId,unique identifier for loan application
+PayBackId,Loan payback number identifier
+ThirdPartyId,Transaction id for a loan payback
+IsThirdPartyConfirmed,loan order succeeded on platform
+IsDefaulted,"Exceeded agreed payback time (1 = default, 0 = non-default)"
